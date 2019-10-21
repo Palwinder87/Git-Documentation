@@ -1,0 +1,32 @@
+
+git init
+git status
+git add test1.txt
+git commit -m "your message"
+git add .
+
+
+git remote add origin https://github.com/Palwinder87/TestingGit.git
+git push -u origin master
+
+
+git log
+
+git --help
+
+
+----------------------------------
+
+git branch "branch name"
+
+git checkout "branch name"
+
+git push -u origin child branch
+
+git merge "branch name"
+
+
+git branch -d "branch name" - delete from local
+git push origin --delete "branch name" - delete from git hub
+
+
